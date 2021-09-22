@@ -1,0 +1,164 @@
+/* color-palat:
+dark purple: #0C0023,
+Eerie Black: #161C1F,
+russian violet: #210F44
+Phthalo green: #1E301D,
+lincoln green: #2E6017,
+Pakistan Green: #20391B,
+Slimy Green: #3E8E10,
+Yellow Green Color Wheel: #48AA0C,
+kelly green: #50C009,
+Harlequin: #5CE304,
+green-lizard: #9CF11C,
+font-family: 'Crimson Text', serif;
+font-family: 'Noto Sans Runic', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+
+
+/* header */
+.top-header{
+    background: #210F44;
+    padding: 8px 0;
+}
+.social-nav{
+    padding-right: 10px;
+}
+.social-item{
+    margin: 0 15px;
+}
+.social-link{
+    line-height: 1;
+    padding: 5px 5px;
+    color: #9CF11C;
+    border: 1px solid #9CF11C;
+    border-radius: 50%;
+    transition: color 0.5s ease;
+    transition: background 1s ease;
+}
+.social-link:hover{
+    color:#210F44;
+    background:#9CF11C
+}
+.main-header{
+    background: linear-gradient(180deg, #210F44,#251B3F,#282639);
+    height: 200px;
+    padding-bottom: 25px;
+}
+.header-welcom{
+    color:#9CF11C;
+    font-family: 'Crimson Text', serif;
+}
+
+.welcom-span:before{
+    content: '';
+    animation-name: text-change;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes text-change{
+    0%{
+        content:'Welcome';
+        font-family: 'Crimson Text', serif;
+    }
+    50%{
+        content:'ᚹᛖᛚᚲᛟᛗᛖ';
+    }
+    100%{
+        content:'Welcome';
+        font-family: 'Crimson Text', serif;
+    }
+}
+.header-sub, .footer-sub{
+    color:#9CF11C;
+    text-transform: capitalize;
+    font-family: 'Crimson Text', serif;
+}
+.main-nav-but{
+    color: #9CF11C;
+    border:1px solid #9CF11C;
+    font-size: 12px;
+    margin: 0 10px;
+    margin-top: 10px;
+    transition:color 0.5s ease;
+}
+.nav-rune{
+    display:none;
+    font-family: 'Noto Sans Runic', sans-serif;
+}
+.nav-eng{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main-nav-but:hover{
+    background:#9CF11C;
+    color:#210F44;
+}
+li:hover .nav-eng{
+    display:none;
+}
+li:hover .nav-rune{
+    display:inline;
+}
+/* end header */
+/* main */
+.about-section{
+    padding: 40px 0;
+    background: linear-gradient(360deg,#210F44,#251B3F,#282639);
+    color: #9CF11C
+}
+.sub-head{
+    font-family: 'Crimson Text', serif;
+}
+.text{
+    font-family:'Source Code Pro', monospace;
+}
+.projects-section{
+    padding: 40px 0;
+    background: linear-gradient(180deg,#210F44,#251B3F,#282639);
+    color:#9CF11C;
+}
+.project-card{
+    background:#549D0E;
+    color:#210F44;
+    box-shadow: 5px 5px 5px rgb(47, 19, 76);
+}
+.click-but{
+    color: #9CF11C;
+    border:1px solid #9CF11C;
+    font-size: 12px;
+    transition:color 0.5s ease;
+}
+.click-but:hover{
+    background:#9CF11C;
+    color:#210F44;
+}
+.click-rune{
+    display:none;
+    font-family: 'Noto Sans Runic', sans-serif;
+}
+a:hover .click-eng{
+    display:none;
+}
+a:hover .click-rune{
+    display:inline;
+
+}
+.contacts-section{
+    background:linear-gradient(360deg,#210F44,#251B3F,#282639);
+    padding: 40px 0;
+}
+/* end main */
+/* footer */
+.footer{
+    color:#9CF11C;
+}
