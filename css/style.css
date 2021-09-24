@@ -30,6 +30,15 @@ font-family: 'Source Sans Pro', sans-serif;
 .top-header{
     background: #210F44;
     padding: 8px 0;
+    padding-bottom: 20px;
+}
+.top-nav-but{
+    color: #9CF11C;
+    border:1px solid #9CF11C;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 6px 10px;
+    transition:color 0.5s ease;
 }
 .social-nav{
     padding-right: 10px;
@@ -42,7 +51,7 @@ font-family: 'Source Sans Pro', sans-serif;
     padding: 5px 5px;
     color: #9CF11C;
     border: 1px solid #9CF11C;
-    border-radius: 50%;
+    border-radius: 25%;
     transition: color 0.5s ease;
     transition: background 1s ease;
 }
@@ -55,7 +64,12 @@ font-family: 'Source Sans Pro', sans-serif;
     height: 200px;
     padding-bottom: 25px;
 }
-.header-welcom{
+.main-1{
+    padding: 40px 0;
+    background:linear-gradient(180deg, #210F44,#251B3F,#282639);
+    color:#9CF11C;
+}
+.header-welcom, .Bio-Header{
     color:#9CF11C;
     font-family: 'Crimson Text', serif;
 }
@@ -99,7 +113,7 @@ font-family: 'Source Sans Pro', sans-serif;
 .nav-eng{
     font-family: 'Source Sans Pro', sans-serif;
 }
-.main-nav-but:hover{
+.main-nav-but, .top-nav-but:hover{
     background:#9CF11C;
     color:#210F44;
 }
@@ -161,4 +175,5 @@ a:hover .click-rune{
 /* footer */
 .footer{
     color:#9CF11C;
+    font-family:'Source Code Pro', monospace;
 }
