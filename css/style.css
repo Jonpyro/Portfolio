@@ -177,3 +177,23 @@ a:hover .click-rune{
     color:#9CF11C;
     font-family:'Source Code Pro', monospace;
 }
+
+.footer-social-link{
+    line-height: 1;
+    padding: 5px 5px;
+    color: #9CF11C;
+    border: 1px solid #9CF11C;
+    border-radius: 25%;
+    transition: color 0.5s ease;
+    transition: background 1s ease;
+}
+.colophon{
+    padding: 10px 0;
+    background: linear-gradient(180deg,#210F44,#251B3F,#282639);
+}
+.footer-icon{
+    font-size: 8px;
+}
+.footer-slogan, .copy-right{
+    padding-top: 5px;
+}
