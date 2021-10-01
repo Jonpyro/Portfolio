@@ -15,7 +15,9 @@ font-family: 'Noto Sans Runic', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 */
 
-
+*{
+    scroll-behavior: smooth;
+}
 .icon {
     display: inline-block;
     width: 20px;
@@ -116,6 +118,19 @@ li:hover .nav-eng{
 li:hover .nav-rune{
     display:inline;
 }
+.welcom-section{
+    padding: 40px 0;
+    color:#9CF11C;
+    background: linear-gradient(180deg, #210F44,#251B3F,#282639);
+}
+.img-section{
+    padding: 40px 0;
+    background: linear-gradient(360deg, #210F44,#251B3F,#282639);
+}
+.construction-img{
+    width: 90%;
+    height: 200px;
+}
 /* end header */
 /* main */
 .about-section{
@@ -162,7 +177,7 @@ a:hover .click-rune{
 
 }
 .contacts-section{
-    background:linear-gradient(360deg,#210F44,#251B3F,#282639);
+    background:linear-gradient(180deg,#210F44,#251B3F,#282639);
     padding: 40px 0;
 }
 .Int-info{
@@ -170,7 +185,7 @@ a:hover .click-rune{
     background: linear-gradient(360deg,#210F44,#251B3F,#282639);
     color:#9CF11C
 }
-.dnd-pt{
+.carousel-pt{
     background:#000;
     border: 1px dashed #9CF11C;
 }
@@ -192,7 +207,7 @@ a:hover .click-rune{
 }
 .colophon{
     padding: 10px 0;
-    background: linear-gradient(180deg,#210F44,#251B3F,#282639);
+    background: linear-gradient(360deg,#210F44,#251B3F,#282639);
 }
 .colophon-bio{
     padding: 10px 0;
