@@ -230,8 +230,10 @@ a:hover .click-rune{
 .project-img{
     height: 250px;
 }
+
 @media(max-width: 576px){
     .project-img{
         width: 250px;
+        border: 2px solid #9CF11C;
     }
 }
